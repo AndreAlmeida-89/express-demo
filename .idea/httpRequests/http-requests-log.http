@@ -1,0 +1,109 @@
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{"name": "java"}
+
+<> 2020-10-21T082805.200.json
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{"name": "ruby"}
+
+<> 2020-10-21T082703.200.json
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{name: 'ruby'}
+
+<> 2020-10-21T082626.400.html
+
+###
+
+GET http://localhost:3000/api/courses/1
+Content-Type: application/json
+
+<> 2020-10-21T080142.200.json
+
+###
+
+GET http://localhost:3000/api/courses/1
+Content-Type: application/json
+
+{name: 'teste kkk'}
+
+<> 2020-10-21T075719.400.html
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{name: 'teste kkk'}
+
+<> 2020-10-21T074130.400.html
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{name: 'teste kkk'}
+
+<> 2020-10-21T074111.400.html
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{name: 'teste kkk'}
+
+<> 2020-10-21T073929.400.html
+
+###
+
+POST http://localhost:3000/api/courses
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{name: 'teste kkk'}
+
+<> 2020-10-21T073846.400.html
+
+###
+
+POST http://localhost:3000/api/courses
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{name: 'teste kkk'}
+
+<> 2020-10-21T073809.400.html
+
+###
+
+GET http://localhost:3000/api/courses
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2020-10-21T073539.200.json
+
+###
+
+GET http://localhost:3000/api/courses
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-21T073422.200.json
+
+###
+
