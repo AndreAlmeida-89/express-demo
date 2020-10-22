@@ -29,6 +29,10 @@ app.post('/api/courses', (req, res) => {
     }
 
     const result = Joi.validate(req.body, schema)
+    if(result.error){
+        res.status(400).send(result.error.details[0].message)
+        return
+    }
 
     const course = {
         id: courses.length +1,

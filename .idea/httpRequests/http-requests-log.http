@@ -1,6 +1,60 @@
 POST http://localhost:3000/api/courses
 Content-Type: application/json
 
+{"name": "a"}
+
+<> 2020-10-21T100138.400.html
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{"name": "a"}
+
+<> 2020-10-21T100121.400.json
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{"name": "a"}
+
+<> 2020-10-21T100037.400.json
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{"name": "node"}
+
+<> 2020-10-21T100014.200.json
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{"name": "node"}
+
+<> 2020-10-21T095640.400.html
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{"name": "node"}
+
+<> 2020-10-21T095347.500.html
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
 {"name": "java"}
 
 <> 2020-10-21T094133.500.html
