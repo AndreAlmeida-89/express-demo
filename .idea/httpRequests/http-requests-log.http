@@ -1,3 +1,73 @@
+GET http://localhost:3000/api/courses/
+Content-Type: application/json
+
+{"name": "newer course"}
+
+<> 2020-10-21T113351.200.json
+
+###
+
+PUT http://localhost:3000/api/courses/1
+Content-Type: application/json
+
+{"name": "newer course"}
+
+<> 2020-10-21T113342.200.json
+
+###
+
+PUT http://localhost:3000/api/courses/
+Content-Type: application/json
+
+{"name": "newer course"}
+
+<> 2020-10-21T113328.404.html
+
+###
+
+GET http://localhost:3000/api/courses/
+Content-Type: application/json
+
+{"name": "new course"}
+
+<> 2020-10-21T102959.200.json
+
+###
+
+PUT http://localhost:3000/api/courses/1
+Content-Type: application/json
+
+{"name": "new course"}
+
+<> 2020-10-21T102948.200.json
+
+###
+
+PUT http://localhost:3000/api/courses/1
+Content-Type: application/json
+
+{"name": "new course"}
+
+<> 2020-10-21T102817.500.html
+
+###
+
+PUT http://localhost:3000/api/courses/1
+Content-Type: application/json
+
+{"name": "new course"}
+
+<> 2020-10-21T102546.500.html
+
+###
+
+PUT http://localhost:3000/api/courses/1
+Content-Type: application/json
+
+{"name": "new course"}
+
+###
+
 POST http://localhost:3000/api/courses
 Content-Type: application/json
 
