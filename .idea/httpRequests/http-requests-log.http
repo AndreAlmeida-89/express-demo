@@ -3,6 +3,15 @@ Content-Type: application/json
 
 {"name": "java"}
 
+<> 2020-10-21T094133.500.html
+
+###
+
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{"name": "java"}
+
 <> 2020-10-21T082805.200.json
 
 ###
